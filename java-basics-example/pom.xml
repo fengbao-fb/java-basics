@@ -30,16 +30,27 @@
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <!-- Apache Commons Lang：提供了一系列Java基础工具类，如字符串处理、日期处理、反射工具等增强功能 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8</version>
+        </dependency>
+
+        <!-- Spring Boot Web Starter：Spring Boot的Web开发模块，包含嵌入式Tomcat、Spring MVC等Web开发所需的核心组件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- Lombok：Java注解库，通过注解自动生成Getter、Setter、构造函数等样板代码，减少代码冗余 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
+        <!-- Spring Boot Test Starter：Spring Boot的测试模块，包含JUnit、Mockito、Spring Test等测试框架和工具 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
