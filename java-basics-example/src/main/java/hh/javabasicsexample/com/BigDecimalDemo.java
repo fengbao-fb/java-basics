@@ -3,12 +3,9 @@ package hh.javabasicsexample.com;
 import java.math.BigDecimal;
 
 /**
- * @Author：HuangHao
- * @Package：hh.javabasicsexample.com
- * @Project：java-basics
- * @Name：BigDecimalDemo
- * @Date：2025/5/13 13:17
- * @Des：BigDecimal避坑
+ * @author HuangHao
+ * @since 2025/5/14 14:00
+ * @des BigDecimal避坑
  */
 public class BigDecimalDemo {
 

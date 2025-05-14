@@ -6,12 +6,9 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Author：HuangHao
- * @Package：hh.javabasicsexample.com
- * @Project：java-basics
- * @Name：LFUCache
- * @Date：2025/5/14 9:19
- * @Des：基于LFU(Least Frequently Used)策略的缓存实现、使用哈希表和分段频率链表实现高效的缓存淘汰机制
+ * @author HuangHao
+ * @since 2025/5/14 14:00
+ * @des 基于LFU(Least Frequently Used)策略的缓存实现、使用哈希表和分段频率链表实现高效的缓存淘汰机制
  */
 public class LFUCache<K, V> {
     // 缓存容量上限

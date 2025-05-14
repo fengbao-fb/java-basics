@@ -5,12 +5,9 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @Author：HuangHao
- * @Package：hh.javabasicsexample.com
- * @Project：java-basics
- * @Name：LRUCache
- * @Date：2025/5/13 15:42
- * @Des：支持并发访问的LRU缓存实现、使用ConcurrentHashMap存储缓存项、使用双向链表维护访问顺序、使用分段锁提高并发性能
+ * @author HuangHao
+ * @since 2025/5/14 14:00
+ * @des 支持并发访问的LRU缓存实现、使用ConcurrentHashMap存储缓存项、使用双向链表维护访问顺序、使用分段锁提高并发性能
  */
 public class LRUCache {
     /**

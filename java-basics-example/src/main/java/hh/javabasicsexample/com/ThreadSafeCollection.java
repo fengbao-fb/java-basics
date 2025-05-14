@@ -4,12 +4,9 @@ import java.util.*;
 import java.util.concurrent.*;
 
 /**
- * @Author：HuangHao
- * @Package：hh.javabasicsexample
- * @Project：java-basics
- * @Name：CopyOnWriteArrayListUtil
- * @Date：2025/5/12 16:41
- * @Des：线程安全集合
+ * @author HuangHao
+ * @since 2025/5/14 14:00
+ * @des 线程安全集合
  */
 public class ThreadSafeCollection {
 

@@ -12,12 +12,9 @@ import java.util.concurrent.CopyOnWriteArraySet;
 import java.util.stream.Collectors;
 
 /**
- * @Author：HuangHao
- * @Package：hh.javabasicsexample.com
- * @Project：java-basics
- * @Name：HashMapDelDemo
- * @Date：2025/5/13 11:13
- * @Des：如何优雅的删除HashMap中的值
+ * @author HuangHao
+ * @since 2025/5/14 14:00
+ * @des 如何优雅删除HashMap的元素
  */
 public class HashMapDelDemo {
 
